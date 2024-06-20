@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: gray;
+}
+
+#gamediv{
+    border: 12px inset rgb(8, 7, 10);
+    border-radius: 10px;
+    text-align: center;
+    background: #000000a4;
+    
+    width: 500px;
+    height: 370px;
+
+}
+
+.choiceBtn{
+    width: 130px;
+    height: 50px;
+    border: 4px outset rgb(115, 28, 28);
+    margin-bottom: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgb(71, 132, 132);
+    color: white;
+}
+#playerText{
+    color: rgb(183, 204, 181);
+    text-align: left;
+}
+#computerText{
+    color: rgb(192, 180, 167);
+    text-align: left;
+}
